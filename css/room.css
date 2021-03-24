@@ -1,0 +1,17 @@
+.col-sm-3{
+	padding: 2px !important;
+}
+
+.card-img , .card-img-top {
+	height: 200px !important;
+}
+
+
+@keyframes animate {
+    50% {
+        transform: translate(-50%, -48%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}

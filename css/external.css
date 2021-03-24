@@ -1,0 +1,218 @@
+
+/*====================================================================================================================================
+                                              GENERAL STYLING
+======================================================================================================================================-*/
+body{
+  background-color: #ffffff ;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+/*====================================================================================================================================
+                                                NAV BAR
+======================================================================================================================================-*/
+.navbar{
+  background-color:#076666;
+  color: #ffffff;
+  padding-bottom: 2px;
+  width: 100%
+}
+.nav-link{
+  color: #4a4948;
+}
+/* Book button in nav bar */
+.btn{
+  background-color: #d6ae51;
+  color: #ffffff;
+  border: 2px solid #d6ae51;
+}
+.btn:hover{
+  background-color: #fcd303;
+  color: #4a4948;
+  border: 2px solid #fcd303;
+}
+/*====================================================================================================================================
+                                                CAROUSEL IMAGES IN HEADER
+======================================================================================================================================-*/
+.carousel-inner img{
+  width: 100%;
+  height: 88vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*====================================================================================================================================
+                                                    FOOTER
+======================================================================================================================================-*/
+#footer{
+  padding-top: 7px;
+  margin-top: 3%;
+  color:#ffffff;
+  bottom: 0;
+  background-color: #076666;
+  width: 100%;
+  font-size: 0.8em;
+}
+.sitepage {
+position: fixed;
+}
+.logoBottom{
+  padding-top: 7%;
+}
+#footercop{
+  text-align: center;
+}
+#footAddress{
+  text-align: right;
+  padding-right: 7px;
+}
+.footerLinks{
+  list-style-type: none;
+  padding-left: 1%;
+}
+.footerLinks a {
+  color: #ffffff;
+}
+.footerLinks a:focus {
+  color: #d6ae51;
+}
+.footer-copyright{
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 0.7em;
+  background-color: #076666;
+  color:#ffffff;
+}
+@media(max-width: 1024px){
+  #footer{
+    display: none;
+  }
+}
+/*====================================================================================================================================
+                                                    SITEMAP
+======================================================================================================================================-*/
+.sitemapdiv{
+padding-left: 22%;
+}
+.sitemapdiv ul{
+  list-style-type: none;
+  margin-left: -7%;
+}
+.sitemap a {
+    color: #4a4948;
+}
+/*====================================================================================================================================
+                                                    MAIN CONTENT
+======================================================================================================================================-*/
+
+.content1{
+  text-align: justify;
+}
+.colheader{
+  color: #2cacb8;
+}
+@media(max-width: 1024px){
+  #footer{
+    display: none;
+  }
+}
+/*@media(max-width: 425px){
+  .imageBody{
+    display: none;
+  }
+} */
+@media(max-width: 1024px){
+  hr{
+    display: none;
+  }
+}
+
+.imgDublin{
+  width: 100%;
+  height: 100;
+}
+
+/*====================================================================================================================================
+                                                    FLOATING BOOK NOW BUTTON
+======================================================================================================================================-*/
+
+.btnside{
+  top: 65%;
+  position: fixed;
+  background-color: #d6ae51;
+  border: 2px solid #d6ae51;
+  margin-left: 89%;
+  padding: 8px;
+  border-radius: 60%;
+}
+#bookbuttons:hover{
+  background-color: #d6ae51;
+  color: #4a4948;
+  border: 2px solid #d6ae51;
+}
+#bookbuttons{
+  font: 3.5em;
+  color: white;
+}
+@media(max-width: 1024px){
+  .buttonhide{
+    display: none;
+  }
+}
+
+/*====================================================================================================================================
+                                                    FLIP CARDS - WHAT GUESTS SAY ABOUT US
+======================================================================================================================================-*/
+/* https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+
+}
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 #076666;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #ffffff;
+  color: #4a4948;
+}
+.flip-card-back {
+  background-color:  #076666;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+@media(max-width: 425px){
+  .reviewSection2{
+    margin-left:-10%;
+  }
+}
+@media(max-width: 320px){
+  .reviewSection2{
+    margin-left:-22%;
+  }
+}
+
+
+
+#bookbutton{
+  cursor: pointer;
+}
+
